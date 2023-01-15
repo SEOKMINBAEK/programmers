@@ -5,7 +5,7 @@
  * @returns {boolean}
  */
 
-const harshadCheck = num => {
+const harshadChecker = num => {
   const arr = [...`${num}`];
   const sum = arr.reduce((acc, cur) => acc + Number(cur), 0);
   return !(num%sum);
