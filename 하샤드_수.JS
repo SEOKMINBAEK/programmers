@@ -2,7 +2,7 @@
  * 입력받은 정수가 하샤드 수 인지 검사한다.
  * @author seokmin Baek
  * @param {number} num
- * @return {boolean}
+ * @returns {boolean}
  */
 
 const harshadCheck = num => {
